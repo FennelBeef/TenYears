@@ -1,0 +1,85 @@
+html, body,.top-bar { min-width: 1100px;}
+
+#hightlight-border{
+    border-top:3px solid #f4930a;
+}
+html{
+    background-image: url("../images/background/main-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.top-bar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #920000;
+    position: fixed;
+    z-index: 999;
+}
+.logo img{
+    height: 50px;
+    width: 309px;
+    margin-top: 10px;
+}
+.nav ul{
+    display: flex;
+}
+.nav li{
+    width: 100px;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: rgb(230, 204, 157);
+    transition: 0.2s all;
+    
+}
+.nav li:hover{
+    background-color: #C81E25;
+    transition: 0.4s all;
+}
+.copyright{
+    width: 100%;
+    height: 350px;
+    margin-top: 35px;
+    background-color: rgba(0, 0, 0, 0.767);
+    position: relative;
+}
+.content-foot{
+    position: relative;
+    top:20%;
+    width: 70%;
+    margin:0 auto;
+}
+.content-foot ul{
+    display: flex;
+    justify-content: space-between;
+}
+.content-foot p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 13px;
+}
+.CPC-bottom-flag img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+a{
+    transition:0.2s all;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
